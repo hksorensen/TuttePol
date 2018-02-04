@@ -1,0 +1,4 @@
+all:	tuttepol-linux
+
+tuttepol-linux:	*.cpp *.h
+	g++ *.cpp -o tuttepol-linux
